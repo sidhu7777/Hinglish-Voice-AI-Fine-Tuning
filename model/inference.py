@@ -7,7 +7,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Step 1 : set the fine tunned model id 
 
-fine_tuned_model = "ft:gpt-3.5-turbo-0125:personal::BRPlm5zt"
+fine_tuned_model = "ft:gpt-3.5-turbo-0125:personal::BRPlm5zt" # place your output model 
 
 # step 3 : listing the 3 new prompts to the test the trained model
 

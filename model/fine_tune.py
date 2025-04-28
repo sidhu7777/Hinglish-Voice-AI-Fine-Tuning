@@ -32,6 +32,8 @@ fine_tune_job = openai.fine_tuning.jobs.create(
 )
 print(f"Fine-tune response ID: {fine_tune_job.id}")
 
+
+
 # Step 4 checking the job status 
 print("\n Checking the job status ---")
 
@@ -45,3 +47,5 @@ while True:
             print(f"Fine-tuned Model : {job_status.fine_tuned_model}")
         break
     time.sleep(10)    
+
+   
