@@ -1,4 +1,4 @@
-````markdown
+
 # Hinglish Voice-AI Fine-Tuning Mini-Project
 
 ## Project Overview
@@ -19,7 +19,7 @@ The goal was to adapt the base model `gpt-3.5-turbo` to generate fluent, natural
 
 ## Project Structure
 
-```plaintext
+```
 dataset.jsonl          # 20 examples for fine-tuning
 model/
  ├── fine_tune.py      # Script to upload dataset and start fine-tuning
