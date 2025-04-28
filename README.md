@@ -28,7 +28,7 @@ model/
 requirements.txt        # Required libraries (openai, python-dotenv)
 README.md               # Project explanation
 ```
-````
+
 
 ---
 
